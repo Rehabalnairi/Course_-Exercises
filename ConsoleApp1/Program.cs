@@ -336,42 +336,131 @@ namespace ConsoleApp1
             //}
 
             //--------------------------------------
-            Console.WriteLine("choose a shape :1.Circle,2.Square,3.Triangle");
-            char shape = char.Parse(Console.ReadLine());
-            
-            switch (shape)
-            {
-                case '1':
-                    Console.WriteLine("Enter the radius: ");
-                    double radius = double.Parse(Console.ReadLine());
-                     double area = radius * radius * Math.PI;
-                    double cir = 2 + radius * Math.PI;
-                    Console.WriteLine("area is : "+area+"Circumference is:"+cir);
+            //Console.WriteLine("choose a shape :1.Circle,2.Square,3.Triangle");
+            //char shape = char.Parse(Console.ReadLine());
 
-                    break;
+            //switch (shape)
+            //{
+            //    case '1':
+            //        Console.WriteLine("Enter the radius: ");
+            //        double radius = double.Parse(Console.ReadLine());
+            //         double area = radius * radius * Math.PI;
+            //        double cir = 2 + radius * Math.PI;
+            //        Console.WriteLine("area is : "+area+"Circumference is:"+cir);
 
-                case '2':
+            //        break;
 
-                    Console.WriteLine("Enter the side length: ");
-                    double length = double.Parse(Console.ReadLine());
-                    double areasq = length * length;
-                    double premeter = length * 4;
-                    Console.WriteLine("area is : " + areasq + "perimeter  is:" + premeter);
-                    break;
-                case '3':
-                    Console.WriteLine("Enter the Length: ");
-                    double Length = double.Parse(Console.ReadLine());
-                    Console.WriteLine("Enter the base: ");
-                    double baseLength = double.Parse(Console.ReadLine());
-                    double trangleare = 0.5 * Length * baseLength;
-                    Console.WriteLine("area is :" + trangleare);
+            //    case '2':
 
-                    break;
-                    default:
-                    Console.WriteLine("error");
-                    break;
+            //        Console.WriteLine("Enter the side length: ");
+            //        double length = double.Parse(Console.ReadLine());
+            //        double areasq = length * length;
+            //        double premeter = length * 4;
+            //        Console.WriteLine("area is : " + areasq + "perimeter  is:" + premeter);
+            //        break;
+            //    case '3':
+            //        Console.WriteLine("Enter the Length: ");
+            //        double Length = double.Parse(Console.ReadLine());
+            //        Console.WriteLine("Enter the base: ");
+            //        double baseLength = double.Parse(Console.ReadLine());
+            //        double trangleare = 0.5 * Length * baseLength;
+            //        Console.WriteLine("area is :" + trangleare);
 
-            }
+            //        break;
+            //        default:
+            //        Console.WriteLine("error");
+            //        break;
+            //-------------------------------------------------------
+            // Factorial of a Number  
+            //Console.WriteLine("Enter First Number:");
+            //int num1 = int.Parse(Console.ReadLine());
+            //float Factorial = 1;
+
+            //for (int i =1;i<= num1; i++)
+            //{
+            //    Factorial *= i;
+            //}
+            //Console.WriteLine("Factorial is:"+Factorial);
+
+
+            //---------------------------------------------
+
+            //5. Sum of Even and Odd Numbers 
+            //Console.WriteLine("Enter Number:");
+            //int num = int.Parse(Console.ReadLine());
+            //int oddNum=0;
+            //int sumEven = 0;
+
+            //for (int i = 1; i <= num; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        sumEven = ++i;
+            //    }
+            //    else
+            //        oddNum += i;
+            //        Console.WriteLine("sum of even Numbers:" + sumEven + "sum of odd Numbers:"+oddNum);
+            //}
+
+            //6. Scientific Calculator (Switch-Case & Math Functions)
+            //Console.WriteLine("choose  an operation :1.sin/2.cos/3.tan/4.sqrt/5.log/6.pow");
+            //char op = char.Parse(Console.ReadLine());
+            //double result = 0;
+            //switch(op)
+            //{
+            //    case '1':
+            //        Console.WriteLine("Enter a Number");
+            //        double Nsin = double.Parse(Console.ReadLine());
+            //        result = Math.Sin(Nsin);
+            //        Console.WriteLine(result);
+            //        break;
+
+            //    case '2':
+            //        Console.WriteLine("Enter a Number");
+            //        double Ncos = double.Parse(Console.ReadLine());
+            //        result = Math.Cos(Ncos);
+            //        Console.WriteLine(result);
+            //        break;
+
+            //    case '3':
+            //        Console.WriteLine("Enter a Number");
+            //        double Ntan = double.Parse(Console.ReadLine());
+            //        result = Math.Tan(Ntan);
+            //        Console.WriteLine(result);
+            //        break;
+
+            //    case '4':
+            //        Console.WriteLine("Enter a Number");
+            //        double Nsqrt = double.Parse(Console.ReadLine());
+            //        result = Math.Sqrt(Nsqrt);
+            //        Console.WriteLine(result);
+            //        break;
+
+            //    case '5':
+            //        Console.WriteLine("Enter a Number");
+            //        double Nlog = double.Parse(Console.ReadLine());
+            //        result = Math.Log(Nlog);
+            //        Console.WriteLine(result);
+            //        Console.WriteLine(result);
+            //        break;
+
+            //    case '6':
+            //        Console.WriteLine("Enter a Number");
+            //        double Npow = double.Parse(Console.ReadLine());
+            //        Console.WriteLine("Enter a Number");
+            //        double Npow1 = double.Parse(Console.ReadLine());
+            //        result = Math.Pow(Npow,Npow1);
+            //        Console.WriteLine(result);
+            //        break;
+
+
+            //    default:
+            //        Console.WriteLine("error");
+            //        break;
+            //}
+
+
+
 
 
 
@@ -385,4 +474,7 @@ namespace ConsoleApp1
 
         }
     }
-}
+    }
+
+    
+
