@@ -110,51 +110,80 @@ namespace ConsoleApp1
             //        Console.WriteLine(" Enter your  correct Mark ");
             //    }
 
-            //}
-            //------------------------------------------------------
-            //6)Swap Two Numbers
-            //int num1, num2 ;
-            //Console.WriteLine(" Enter first number ");
-            //num1 = int.Parse(Console.ReadLine());
-            //Console.WriteLine(" Enter second number ");
-            //num2 = int.Parse(Console.ReadLine());
+            //another soluation 
+            Console.WriteLine("enter student Mark");
+            int score = int.Parse(Console.ReadLine());
+            char grade;
+                if (score >= 90)
+            {
+                grade = 'A';
 
-            //int n = num1;
-            //num1 = num2;
-            //num2 = n;
-            //Console.WriteLine(" Numbers After swap ");
-            //Console.WriteLine(" Number1 After swap :" + num1);
-            //Console.WriteLine(" Number2 After swap :" + num2);
+            }else if (score>= 80)
+            {
+                grade = 'B';
+            }
+               else if  (score >= 70)
+            {
+                grade = 'C';
+            }
+            else if (score >= 60)
+            {
+                grade = 'D';
+            }
+            else
+            {
+                grade = 'F';
+            }
+            Console.WriteLine("The student grade is :" + grade);
 
-            //--------------------------------------
-            //7. Days to Weeks and Days Converter 
-            //float days,week;
-            // Console.WriteLine("enter number of dayes");
-            // days = float.Parse(Console.ReadLine());
-            // week = days / 7;
-            //---------
 
-            //8. Electricity Bill Calculator
-            //float Units;
-            //Console.WriteLine("Enter the Units: \n");
-            //Units = int.Parse(Console.ReadLine());
-            //if (Units < 100)
-            //{
-            //    Console.WriteLine(Units * 0.5);
-            //}
-            //else if (Units < 300)
-            //{
-            //    Console.WriteLine(Units * 0.75);
-            //}
-            //else if (Units > 301)
-            //{
-            //    Console.WriteLine(Units * 1);
-            //}
 
-            //------------------------------------------------
-            //9. Simple Calculator
 
-            float num1,mun2;
+                //}
+                //------------------------------------------------------
+                //6)Swap Two Numbers
+                //int num1, num2 ;
+                //Console.WriteLine(" Enter first number ");
+                //num1 = int.Parse(Console.ReadLine());
+                //Console.WriteLine(" Enter second number ");
+                //num2 = int.Parse(Console.ReadLine());
+
+                //int n = num1;
+                //num1 = num2;
+                //num2 = n;
+                //Console.WriteLine(" Numbers After swap ");
+                //Console.WriteLine(" Number1 After swap :" + num1);
+                //Console.WriteLine(" Number2 After swap :" + num2);
+
+                //--------------------------------------
+                //7. Days to Weeks and Days Converter 
+                //float days,week;
+                // Console.WriteLine("enter number of dayes");
+                // days = float.Parse(Console.ReadLine());
+                // week = days / 7;
+                //---------
+
+                //8. Electricity Bill Calculator
+                //float Units;
+                //Console.WriteLine("Enter the Units: \n");
+                //Units = int.Parse(Console.ReadLine());
+                //if (Units < 100)
+                //{
+                //    Console.WriteLine(Units * 0.5);
+                //}
+                //else if (Units < 300)
+                //{
+                //    Console.WriteLine(Units * 0.75);
+                //}
+                //else if (Units > 301)
+                //{
+                //    Console.WriteLine(Units * 1);
+                //}
+
+                //------------------------------------------------
+                //9. Simple Calculator
+
+                float num1, mun2;
            // string operator;
             Console.WriteLine(" Enter first number ");
             num1 = float.Parse(Console.ReadLine());
