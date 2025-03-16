@@ -157,14 +157,16 @@ namespace ConsoleApp1
 
             //--------------------------------------
             //7. Days to Weeks and Days Converter 
-            int days;
-            Console.WriteLine("enter number of days");
-            days = int.Parse(Console.ReadLine());
-            int week = days / 7;
-            int remainingDays = days % 7;
+            //int days;
+            //Console.WriteLine("enter number of days");
+            //days = int.Parse(Console.ReadLine());
+            //int week = days / 7;
+            //int remainingDays = days % 7;
 
-            Console.WriteLine(days + " days = " + week + " week(s) and " + remainingDays + " day(s)");
-            Console.WriteLine("-------------------------------------------------");
+            //Console.WriteLine(days + " days = " + week + " week(s) and " + remainingDays + " day(s)");
+            //Console.WriteLine("-------------------------------------------------");
+
+
 
 
 
@@ -204,10 +206,172 @@ namespace ConsoleApp1
 
 
             //// operator=Console.ReadLine();
+            ///
+
+            //////-----------------------------------------------------------
+
+            //////Simple Calculator
+            //Console.Write("Enter first number: ");
+            //double FirstNumber = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter operator (+, -, *, /): ");
+            //char op = Console.ReadKey().KeyChar;
+            //Console.WriteLine();
+
+            //Console.Write("Enter second number: ");
+            //double SecondNumber = double.Parse(Console.ReadLine());
+
+            //double result = 0;
+
+            //if (op == '+')
+            //    result = FirstNumber + SecondNumber;
+            //else if (op == '-')
+            //    result = FirstNumber - SecondNumber;
+            //else if (op == '*')
+            //    result = FirstNumber * SecondNumber;
+            //else if (op == '/')
+            //{
+            //    if (SecondNumber != 0)
+            //        result = FirstNumber / SecondNumber;
+            //    else
+            //    {
+            //        Console.WriteLine("Cannot divide by zero!");
+            //        return;
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid operator!");
+            //    return;
+            //}
+
+            //Console.WriteLine("Result: " + result );
+            //Console.WriteLine("-------------------------------------------------");
+
+            ////-----------------------------------------------
+
+
+            //Console.WriteLine("Enter a number");
+            //int n = int.Parse(Console.ReadLine());
+            //int counter;
+            //for (counter = 0; counter<= n; counter++)
+            //{
+            //    Console.WriteLine("Rehab");
+            //}
+
+            //int num = 20;
+            //while (num != 20)
+            //{
+            //    Console.WriteLine("guess a number");
+            //    num = int.Parse(Console.ReadLine());
+
+            //}
+            //----------------------------------------------
+
+
+            //int num = 0;
+
+            //do
+            //{
+            //    Console.WriteLine("guess a number ");
+            //    num = int.Parse(Console.ReadLine());
+            //}
+            //while (num != 20);
+            //------------------------------
 
             //# Part2 Exercises
 
+            //1. Simple Calculator (Switch-Case)
+            //   Console.WriteLine("Enter First Number:");
+            //   int num1 = int.Parse(Console.ReadLine());
 
+            //   Console.WriteLine("Enter second Number:");
+            //   int num2 = int.Parse(Console.ReadLine());
+            //   Console.WriteLine("Enter operator (+, -, *, /): ");
+            //   char op = Console.ReadKey().KeyChar;
+            ////   Console.WriteLine();
+
+            //   double result = 0;
+            //   switch (op)
+            //   {
+            //       case '+':
+            //           result = num1 + num2;
+            //           Console.WriteLine("result is" + result);
+            //           break;
+
+            //       case '-':
+            //           result = num1 - num2;
+            //           Console.WriteLine("result is" + result);
+            //           break;
+
+            //       case '/':
+            //           result = num1 / num2;
+            //           Console.WriteLine("result is" + result);
+            //           break;
+            //       case '*':
+            //           result = num1 * num2;
+            //           Console.WriteLine("result is" + result);
+            //           break;
+
+            //       default:
+            //           Console.WriteLine("error");
+            //           break;
+
+            //   }
+            //---------------------------------------------------------------------------
+            //2. Basic ATM System
+            //Console.WriteLine("Enter your balance ");
+            //int balance = int.Parse(Console.ReadLine());
+            //string ch;
+            //if (balance >= 1000)
+            //    Console.WriteLine("choose options")
+            //         ;
+
+            //{
+            //    switch (ch)
+            //    {
+
+            //    }
+
+            //}
+
+            //--------------------------------------
+            Console.WriteLine("choose a shape :1.Circle,2.Square,3.Triangle");
+            char shape = char.Parse(Console.ReadLine());
+            
+            switch (shape)
+            {
+                case '1':
+                    Console.WriteLine("Enter the radius: ");
+                    double radius = double.Parse(Console.ReadLine());
+                     double area = radius * radius * Math.PI;
+                    double cir = 2 + radius * Math.PI;
+                    Console.WriteLine("area is : "+area+"Circumference is:"+cir);
+
+                    break;
+
+                case '2':
+
+                    Console.WriteLine("Enter the side length: ");
+                    double length = double.Parse(Console.ReadLine());
+                    double areasq = length * length;
+                    double premeter = length * 4;
+                    Console.WriteLine("area is : " + areasq + "perimeter  is:" + premeter);
+                    break;
+                case '3':
+                    Console.WriteLine("Enter the Length: ");
+                    double Length = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter the base: ");
+                    double baseLength = double.Parse(Console.ReadLine());
+                    double trangleare = 0.5 * Length * baseLength;
+                    Console.WriteLine("area is :" + trangleare);
+
+                    break;
+                    default:
+                    Console.WriteLine("error");
+                    break;
+
+            }
 
 
 
