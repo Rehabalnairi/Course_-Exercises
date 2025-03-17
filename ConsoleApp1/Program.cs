@@ -322,15 +322,15 @@ namespace ConsoleApp1
             //2. Basic ATM System
             //Console.WriteLine("Enter your balance ");
             //int balance = int.Parse(Console.ReadLine());
-            //string ch;
+           
             //if (balance >= 1000)
-            //    Console.WriteLine("choose options")
-            //         ;
-
+            //    Console.WriteLine("choose options \n 1. Withdraw Money \n 2. Deposit Money \n 3. Check Balance  \n 4. Exit ");
+            //char ch = Console.ReadKey().KeyChar;
             //{
             //    switch (ch)
             //    {
-
+            //        case 1:
+            //            break;
             //    }
 
             //}
@@ -458,23 +458,137 @@ namespace ConsoleApp1
             //        Console.WriteLine("error");
             //        break;
             //}
+            //-------------------------------------------------------------------------------------------
+            //7. Print Pattern (For Loop)
+
+            //Console.WriteLine("enter a number ");
+            //int n = int.Parse(Console.ReadLine());
+            //string x = "";
+            //int i;
+
+            //    for (i = 1; i <= n; i++)
+            //    {
+
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        x += "*";
 
 
+            //    }
+            //    Console.WriteLine(x);
+            //    x = "";
+
+            //}
+            //Console.WriteLine();
+            //-------------------------------------------
+
+            //8. Print a Pyramid Pattern (For Loop)
+
+            //Console.WriteLine("enter a number ");
+            //int n = int.Parse(Console.ReadLine());
+            //string x = "";
+            //int i;
+
+            //for (i = 1; i <n ; i++)
+            //{
+
+            //    for (int j = 1; j <n-i -1; j++)
+            //    {
+            //       // x += "*";
+            //        Console.Write(" ");
+
+            //        for (int k = 1; k < 2 * i + 1; k++)
+            //        {
+            //            Console.Write("*");
+            //        }
 
 
+            //    }
+            //    Console.WriteLine(x);
+            //   //x= "";
+
+            //}
+            //Console.WriteLine();
+
+            //----------------------------
+
+            //Console.WriteLine("enter  number ");
+            //int n = int.Parse(Console.ReadLine());
+            ////string x = "";
+            ////int i;
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < n -i ; j++)
+            //    {
+            //        Console.Write("");
+
+            //    }
+            //    for (int k = 0; k < 2 * i + 1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+
+            //}
+
+            //for (int i = n - 2; i >= 0; i--)
+            //{
+
+            //    for (int j = 0; j < n - i ; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int k = 0; k < 2 * i + 1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+
+            //    Console.WriteLine();
+            //}
 
 
+            //-------------------------------------
+            //9. Print a Diamond Pattern (For Loop)
 
+            //Console.WriteLine("enter  number ");
+            //int n = int.Parse(Console.ReadLine());
+            //for (int i = 1; i <= n; i++)
 
+            //{
+            //    for (int j = 1; j <= n - i; j++) 
+            //    { Console.Write(" "); }
+            //    for (int k = 1; k <= 2 * i - 1; k++) 
+            //    { Console.Write("*"); }
+            //    Console.WriteLine(); 
+            //}
 
+            //for (int i = n - 2; i >= 0; i--)
+            //{
 
+            //    for (int j = 0; j < n - i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
 
+            //    for (int k = 0; k < 2 * i + 1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
 
+            //    Console.WriteLine();
+            //}
+
+            //-----------------------------------
 
 
         }
+
+
     }
+ 
+
     }
 
-    
+
 
