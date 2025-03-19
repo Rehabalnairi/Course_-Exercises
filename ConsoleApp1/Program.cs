@@ -779,6 +779,53 @@ namespace ConsoleApp1
 
             //----------------------------------
             // 4.Reverse an Array 
+            //Console.WriteLine("Enter numbers:");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] numbers = new int[n];
+            //Console.WriteLine("Enter numbers:");
+            //for (int i = 0; i < n; i++)
+            //{
+
+            //    numbers[i] = int.Parse(Console.ReadLine());
+
+            //}
+            //Console.WriteLine("OUTPUT is:" + numbers.Reverse());
+            //Array.Reverse(numbers);
+            //for (int i = 0; i < n; i++)
+            //{
+
+            //    Console.Write(numbers[i] + " ");
+
+            //}
+
+            //----------------------------------
+            // 5.Search for a Number in an Array
+
+            //    Console.WriteLine("Enter numbers:");
+            //    int n = int.Parse(Console.ReadLine());
+            //    int[] numbers = new int[n];
+            //    Console.WriteLine("Enter numbers:");
+            //    for (int i = 0; i < n; i++)
+            //    {
+
+            //        numbers[i] = int.Parse(Console.ReadLine());
+
+            //    }
+            //    Console.WriteLine("OUTPUT is:" + numbers.Reverse());
+            //    Array.IndexOf(numbers, 2);
+            //    for (int i = 0; i < n; i++)
+            //    {
+
+            //        Console.Write(numbers[i] + " ");
+
+            //    }
+
+
+
+            //}
+
+            //------------------------------------------
+            //6. Sorting an Array (Ascending Order)
             Console.WriteLine("Enter numbers:");
             int n = int.Parse(Console.ReadLine());
             int[] numbers = new int[n];
@@ -787,19 +834,17 @@ namespace ConsoleApp1
             {
 
                 numbers[i] = int.Parse(Console.ReadLine());
-                
+
             }
-            //Console.WriteLine("OUTPUT is:" + numbers.Reverse());
-            Array.Reverse(numbers);
+            // Console.WriteLine("OUTPUT is:" + numbers.sort());
+            Array.Sort(numbers);
             for (int i = 0; i < n; i++)
             {
 
-                Console.Write(numbers[i]+" ");
+                Console.Write(numbers[i] + " ");
 
             }
         }
-
-    }
 
         //static void PrintRow(int i, int n)
         //{
@@ -821,6 +866,7 @@ namespace ConsoleApp1
 
 
     }
+}
     
 
 
