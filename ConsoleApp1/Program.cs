@@ -826,45 +826,63 @@ namespace ConsoleApp1
 
             //------------------------------------------
             //6. Sorting an Array (Ascending Order)
+            //    Console.WriteLine("Enter numbers:");
+            //    int n = int.Parse(Console.ReadLine());
+            //    int[] numbers = new int[n];
+            //    Console.WriteLine("Enter numbers:");
+            //    for (int i = 0; i < n; i++)
+            //    {
+
+            //        numbers[i] = int.Parse(Console.ReadLine());
+
+            //    }
+            //    // Console.WriteLine("OUTPUT is:" + numbers.sort());
+            //    Array.Sort(numbers);
+            //    for (int i = 0; i < n; i++)
+            //    {
+
+            //        Console.Write(numbers[i] + " ");
+
+            //    }
+            //}
+
+
+            //------------------------------
+            // Merging Two Arrays
             Console.WriteLine("Enter numbers:");
             int n = int.Parse(Console.ReadLine());
-            int[] numbers = new int[n];
-            Console.WriteLine("Enter numbers:");
-            for (int i = 0; i < n; i++)
+
+            int[] array1 = new int[n];
+            int[] array2= new int[n];
+
+            Console.WriteLine("enter Array 1:");
+            for (int i =0;i<n;i++)
             {
-
-                numbers[i] = int.Parse(Console.ReadLine());
-
+                Console.WriteLine(" ");
+                array1[i] = int.Parse(Console.ReadLine());
             }
-            // Console.WriteLine("OUTPUT is:" + numbers.sort());
-            Array.Sort(numbers);
-            for (int i = 0; i < n; i++)
-            {
 
-                Console.Write(numbers[i] + " ");
 
-            }
+            //static void PrintRow(int i, int n)
+            //{
+
+            //    for (int j = 0; j < n - i; j++)
+            //        Console.Write(" ");
+
+            //    for (int j = 0; j < 2 * i - 1; j++)
+            //        Console.Write("*");
+
+            //    Console.WriteLine();
+            //}
+
+
+
+
+
+
+
+
         }
-
-        //static void PrintRow(int i, int n)
-        //{
-
-        //    for (int j = 0; j < n - i; j++)
-        //        Console.Write(" ");
-
-        //    for (int j = 0; j < 2 * i - 1; j++)
-        //        Console.Write("*");
-
-        //    Console.WriteLine();
-        //}
-
-
-        //------------------------C# Part3 Exercises -------------------------
-        //1. Array Initialization & Output 
-
-
-
-
     }
 }
     
